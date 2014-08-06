@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+	<title>Index</title>
+	<link rel="stylesheet" href="slider.css" type="text/css" media="screen" charset="utf-8">
+	<script type="text/javascript" charset="utf-8" src="jquery.min.js"></script>
+	<script type="text/javascript" charset="utf-8" src="jq_slider.js">
+		
+	</script>
+
+
+</head>
+<body>
+	<p>
+轮播图	
+	</p>
+
+	<ul  id="slider">
+
+<li style="background-color:green;" >relative1 </li>
+<li style="background-color:#555; " >relative2 </li>
+<li style="background-color:red; ">relative 3</li>
+<li style="background-color:#cecece; " >relative4 </li>
+<li style="background-color:blue;" >relative5 </li>
+<li style="background-color:#000; ">relative6 </li>
+
+<a class="control" id="prev" href="javascript:void(0)">  </a>
+<a class="control" style="left:90%;" id="next" href="javascript:void(0)">  </a>
+		<ul id="navigation" >
+		<li> </li>
+		<li>  </li>
+		<li class="cur">&nbsp; </li>
+		<li> </li>
+		<li>  </li>
+		<li>  </li>
+		</ul>
+
+</ul>
+</body>
+	<script type="text/javascript" charset="utf-8">
+		$(document).ready(function(){
+		
+		$('#slider').zep_slider();
+		  });
+	</script>
+
+
+</html>
